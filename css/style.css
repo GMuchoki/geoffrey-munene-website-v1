@@ -75,7 +75,7 @@ body {
     box-sizing: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
     .hero {
     flex-direction: column-reverse;
     text-align: center;
@@ -93,4 +93,4 @@ body {
     .buttons button {
     width: 100%;
     }
-} */
+}
