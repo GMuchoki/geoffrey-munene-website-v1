@@ -505,3 +505,43 @@ body {
   font-size: 0.85rem;
   color: #6b7280;
 }
+
+/* DARK MODE STYLES */
+body.dark-mode {
+  background-color: #111827;
+  color: #f9fafb;
+}
+
+body.dark-mode .navbar,
+body.dark-mode .feature-card,
+body.dark-mode .blog-card,
+body.dark-mode .testimonial-card,
+body.dark-mode .footer,
+body.dark-mode .cta {
+  background-color: #1f2937;
+  color: #f9fafb;
+}
+
+body.dark-mode .nav-links a,
+body.dark-mode .footer-column ul a,
+body.dark-mode .blog-content a,
+body.dark-mode .view-all,
+body.dark-mode .social-icons a {
+  color: #d1d5db;
+}
+
+body.dark-mode .nav-links a.active,
+body.dark-mode .nav-links a:hover,
+body.dark-mode .footer-column ul a:hover {
+  color: #3b82f6;
+}
+
+body.dark-mode .secondary,
+body.dark-mode .secondary2 {
+  border-color: #f9fafb;
+  color: #f9fafb;
+}
+
+body.dark-mode .primary2:hover {
+  background-color: #222;
+}
